@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,600;1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+
+
+
+* { 
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img.jpg);
+    font-family: "Barlow Semi Condensed","Skranji", sans-serif;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: darkgray;
+    margin-top: 5rem;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text{
+    color: darkgray;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 2;
+    margin: 0 3rem;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span{
+    color: darkgray;
+    font-size: 1.3rem;
+}
+
+.date-input{
+    background-color: rgb(151, 144, 144);
+    font-size: 1.5rem;
+    color: lightgray;
+    width: 40vh;
+    padding: 1rem 1.5rem;
+    margin: 0 1.5rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 7rem;
+    
+}
+.date-submit{
+    background-color: lightseagreen;
+    border-radius: 4px;
+    border: none;
+    color: lightgray;
+    padding: 1rem 1.5rem;
+    margin: 1rem 1.5rem;
+    width: 25vh;
+    cursor: pointer;
+}
